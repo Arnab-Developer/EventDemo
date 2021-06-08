@@ -9,3 +9,10 @@ s2.StudentAgeChanged += e => Console.WriteLine($"Old age: {e.OldAge}, New age: {
 
 s1.Age++;
 s2.Age = 45;
+
+/*
+Output:
+
+Old age: 10, New age: 11
+Old age: 20, New age: 45
+*/
